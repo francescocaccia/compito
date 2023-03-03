@@ -95,12 +95,13 @@ section {
 
 }
 
-.nomiGener img {
-    border-radius: 10px;
+
+#firstImg {
+    border-radius: 100%;
 }
 
-.firstImg {
-    border-radius: 100%;
+.nomiGener img {
+    border-radius: 10px;
 }
 
 
@@ -248,4 +249,3 @@ font-family: 'Roboto', sans-serif;
 
 
 /*--------------------------------ASIDE----------------------------------------------*/
-#aside {}
