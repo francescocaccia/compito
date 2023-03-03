@@ -173,9 +173,79 @@ font-family: 'Roboto', sans-serif;
 */
 
 
-/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*++++++++++++++++++++++++++++++++++++++SCATOLA+++++++++++++++++++++++++++++++++++++*/
 
+#scatola {
+    display: flex;
+
+}
+
+.box {
+    flex-direction: column;
+    width: 55%;
+    margin-left: 3rem;
+}
 
 .pack {
     display: flex;
+    justify-content: center;
+    justify-content: space-between;
 }
+
+
+
+.primoParagrafo {
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color: #191919;
+
+}
+
+.secondoParagrafo {
+    font-family: 'Roboto', sans-serif;
+    color: #6b7781;
+}
+
+.picture {
+    width: 8rem;
+    height: 8rem;
+}
+
+.secondoParagrafo+div {
+    font-family: 'Roboto', sans-serif;
+    color: #6b7781;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 9px;
+
+}
+
+.stelline {
+    max-width: 1.3rem;
+}
+
+
+.pack a {
+    background-color: #f1f3f3;
+    width: auto;
+    border-radius: 15px;
+    height: auto;
+    color: #6b7781;
+    text-decoration: none;
+    padding: 10px;
+
+}
+
+.date {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*.pack div:last-child{}*/
+
+
+
+
+/*--------------------------------ASIDE----------------------------------------------*/
+#aside {}
