@@ -21,7 +21,9 @@
     margin-left: 1.5rem;
 }
 
-/*   font-family: 'Spectral', serif;  */
+/*   font-family: 'Spectral', serif;  
+font-family: 'Roboto', sans-serif;
+*/
 
 .title h1 {
     font-size: 6rem;
@@ -79,40 +81,101 @@
     padding-left: 100px;
 }
 
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
 section {
     display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    margin-top: 1.5rem;
+    margin-right: 2rem;
+    margin-bottom: 1.5rem;
+    margin-left: 2rem;
+
 
 }
 
+.nomiGener img {
+    border-radius: 10px;
+}
+
+.firstImg {
+    border-radius: 100%;
+}
+
+
+section div img :first-of-type {
+    border-radius: 100%;
+}
+
+
 .contenitori {
     display: flex;
-    width: auto;
-    height: auto;
+    width: 33.333%;
 }
 
 .paragrafi {
     display: flex;
-
-    display: inline;
+    color: #989c98b4;
+    font-size: 2rem;
+    margin-right: 1rem;
 }
 
-.nomiGener {
-
-    width: 40px;
-    height: 40px;
-
+.date {
+    margin-top: 0.5rem;
+    color: #989c98b4;
 }
 
-.autori p {}
-
-
-#scatola {
-    margin-top: 1rem;
-    height: 700px;
+.nomiGener div {
     display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    background-color: #f9c22d;
-    border-bottom: solid 1px black;
-    padding: 20px;
+    align-items: center;
+    font-size: 1rem;
+    color: #191919;
+}
+
+.in {
+    color: #989c98b4;
+}
+
+#trending {
+    font-size: small;
+    font-weight: bold;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    color: #191919;
+}
+
+#trending span {
+    margin-left: 0.6rem;
+}
+
+.autori {
+    margin-left: 0.6rem;
+    color: #191919;
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+    font-weight: 550;
+}
+
+.secondP {
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+    color: #191919;
+    margin-top: 0.4rem;
+}
+
+/*   font-family: 'Spectral', serif;  
+font-family: 'Roboto', sans-serif;
+*/
+
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+
+.pack {
+    display: flex;
 }
