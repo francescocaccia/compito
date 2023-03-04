@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 #topBar {
     display: flex;
     align-items: flex-start;
@@ -20,6 +26,34 @@
     padding-left: 90px;
     margin-left: 1.5rem;
 }
+
+@media screen and (min-width: 1300px) {
+    .bottoniTopBar {
+        max-width: 1200px;
+        margin-inline: auto;
+    }
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: #ffc017;
+    transition: background-color 0.6s;
+}
+
+nav.scrolled {
+    background-color: white;
+}
+
+nav.scrolled .bottoniTopBar button {
+    background-color: rgb(26, 137, 23);
+    border-color: rgb(26, 137, 23);
+}
+
+
 
 /*   font-family: 'Spectral', serif;  
 font-family: 'Roboto', sans-serif;
@@ -249,3 +283,50 @@ font-family: 'Roboto', sans-serif;
 
 
 /*--------------------------------ASIDE----------------------------------------------*/
+
+
+aside h4 {
+    margin-bottom: 16px;
+}
+
+aside .categories {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 24px;
+}
+
+aside .categories .category {
+    font-size: 13px;
+    line-height: 20px;
+    padding: 6px 16px;
+    border: 1px solid rgba(230, 230, 230, 1);
+    color: rgba(117, 117, 117, 1);
+    letter-spacing: 0.25px;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    border-radius: 2px;
+}
+
+aside footer {
+    padding-top: 24px;
+    border-top: 1px solid rgba(230, 230, 230, 1);
+}
+
+aside footer ul {
+    list-style: none;
+}
+
+aside footer ul li {
+    display: inline-block;
+    margin-right: 24px;
+    margin-bottom: 8px;
+}
+
+aside footer li a {
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(117, 117, 117, 1);
+    text-decoration: none;
+}
+
+/*+++++++++++++++++++++++++++++++++++section+++++++++++++++++++++++++++++++++++++*/
